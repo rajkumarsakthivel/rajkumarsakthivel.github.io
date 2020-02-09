@@ -10,7 +10,7 @@
 @section('body')
     <h1>About</h1>
 
-    <img src="/assets/img/raj.jpeg"
+    <img src="/assets/img/about.jpeg"
         alt="About image"
         class="flex square-full h-70 w-64 bg-contain mx-auto md:float-right my-6 md:ml-10">
     <p class="mb-6">&nbsp;</p>

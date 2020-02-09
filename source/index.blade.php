@@ -1,7 +1,7 @@
 @extends('_layouts.master')
 @section('body')
 <section class="flex-col justify-center items-center text-center mb-20">
-   <img src="/assets/img/raj.jpeg" alt="Matt Woods" class="inline-flex rounded-full h-36 w-32 bg-contain mx-auto"> 
+   <img src="/assets/img/about.jpeg" class="inline-flex rounded-full h-36 w-32 bg-contain mx-auto"> 
    <h1 class="text-blue-800 font-semibold">Hey, I'm Raj. Developer, Speaker, Laravel Enthusiast, and Curious Learning Python.</h1>
    </p> 
    <div class="flex items-center justify-around max-w-xs mx-auto pt-6">
