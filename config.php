@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://rajkumarsakthivel.github.io',
     'production' => false,
     'siteName' => '//: Ra',
     'siteDescription' => 'Rajkumar Sakthi Personal blog',
