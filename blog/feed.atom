@@ -3,7 +3,7 @@
     <title>//: Ra</title>
     <link href="https://rajkumarsakthivel.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rajkumarsakthivel.github.io/blog/feed.atom" />
-    <updated>2020-02-26T20:19:12+00:00</updated>
+    <updated>2020-02-26T20:23:03+00:00</updated>
     <id>https://rajkumarsakthivel.github.io/blog/feed.atom</id>
     <author>
         <name>Author Name</name>
@@ -29,9 +29,7 @@ prestissimo is a composer plugin that downloads packages in parallel to speed up
 
 A tool to automatically fix PHP Coding Standards issues.......</summary>
     <content type="html"><![CDATA[
-        <h1>PHP-Packages-with-Composer-Global</h1>
-
-<p>Useful Global installation of PHP Packages with Composer for PHP Projects.</p>
+        <p>Useful Global installation of PHP Packages with Composer for PHP Projects.</p>
 
 <h5>Prestissimo</h5>
 
