@@ -6,21 +6,21 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="description" content="Rajkumar Sakthi Personal blog">
 
-        <meta property="og:title" content="//: Ra"/>
+        <meta property="og:title" content="Useful Composer Global Packages for PHP | //: Ra"/>
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://rajkumarsakthivel.github.io/blog"/>
+        <meta property="og:url" content="https://rajkumarsakthivel.github.io/blog/useful-composer-global-packages-for-php-projects"/>
         <meta property="og:description" content="Rajkumar Sakthi Personal blog" />
 
-        <title>//: Ra</title>
+        <title>Useful Composer Global Packages for PHP | //: Ra</title>
 
         <link rel="home" href="https://rajkumarsakthivel.github.io">
         <link rel="icon" href="/favicon.ico">
         <link href="/blog/feed.atom" type="application/atom+xml" rel="alternate" title="//: Ra Atom Feed">
 
-            <meta property="og:title" content="//: Ra Blog" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://rajkumarsakthivel.github.io/blog"/>
-    <meta property="og:description" content="The list of blog posts for //: Ra" />
+            <meta property="og:title" content="Useful Composer Global Packages for PHP" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://rajkumarsakthivel.github.io/blog/useful-composer-global-packages-for-php-projects"/>
+    <meta property="og:description" content="Useful Composer Global Packages for PHP" />
 
                     <!-- Insert analytics code here -->
         
@@ -44,7 +44,7 @@
 
                     <nav class="hidden lg:flex items-center justify-end text-lg">
     <a title="//: Ra Blog" href="/blog"
-        class="ml-6 text-gray-700 hover:text-blue-600 active text-blue-600">
+        class="ml-6 text-gray-700 hover:text-blue-600 ">
         Blog
     </a>
 
@@ -95,7 +95,7 @@
             <a
                 title="//: Ra Blog"
                 href="/blog"
-                class="nav-menu__item hover:text-blue-500 active text-blue"
+                class="nav-menu__item hover:text-blue-500 "
             >Blog</a>
         </li>
         <li class="pl-4">
@@ -130,69 +130,100 @@
 </nav>
 
         <main role="main" class="flex-auto w-full container max-w-4xl mx-auto py-16 px-6">
-                <h1>Blog</h1>
+                        <img src="/assets/img/composer-global.png" alt="Useful Composer Global Packages for PHP cover image" class="mb-2">
+    
+    <h1 class="leading-none mb-2">Useful Composer Global Packages for PHP</h1>
 
-    <hr class="border-b my-6">
+    <p class="text-gray-700 text-xl md:mt-0">Raj  •  February 1, 2020</p>
 
-            <div class="flex flex-col mb-4">
-    <p class="text-gray-700 font-medium my-2">
-        February 1, 2020
-    </p>
+    
+    <div class="border-b border-blue-200 mb-10 pb-4" v-pre>
+        <h1>PHP-Packages-with-Composer-Global</h1>
 
-    <h2 class="text-3xl mt-0">
-        <a
-            href="https://rajkumarsakthivel.github.io/blog/useful-composer-global-packages-for-php-projects"
-            title="Read more - Useful Composer Global Packages for PHP"
-            class="text-gray-900 font-extrabold"
-        >Useful Composer Global Packages for PHP</a>
-    </h2>
+<p>Useful Global installation of PHP Packages with Composer for PHP Projects.</p>
 
-    <p class="mb-4 mt-0">Useful Global installation of PHP Packages with Composer for PHP Projects.
+<h5>Prestissimo</h5>
 
+<p>prestissimo is a composer plugin that downloads packages in parallel to speed up the installation process.</p>
 
+<pre><code>composer global require hirak/prestissimo
+</code></pre>
 
-prestissimo is a composer plugin that downloads packages in parallel to speed up the installation process.
+<h5>PHP Coding Standards Fixer</h5>
 
+<p>A tool to automatically fix PHP Coding Standards issues.</p>
 
+<pre><code>composer global require friendsofphp/php-cs-fixer
+</code></pre>
 
+<h5>PHP Mess Detector</h5>
 
+<p>PMD to detect code smells and possible errors within the analyzed source code</p>
 
-A tool to...</p>
+<pre><code>composer global require phpmd/phpmd
+</code></pre>
 
-    <a
-        href="https://rajkumarsakthivel.github.io/blog/useful-composer-global-packages-for-php-projects"
-        title="Read more - Useful Composer Global Packages for PHP"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
-</div>
+<h5>PHP Codesniffer</h5>
 
-                    <hr class="border-b my-6">
-                    <div class="flex flex-col mb-4">
-    <p class="text-gray-700 font-medium my-2">
-        January 1, 2020
-    </p>
+<p>PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.</p>
 
-    <h2 class="text-3xl mt-0">
-        <a
-            href="https://rajkumarsakthivel.github.io/blog/my-first-blog-post"
-            title="Read more - My First Blog Post"
-            class="text-gray-900 font-extrabold"
-        >My First Blog Post</a>
-    </h2>
+<pre><code>composer global require squizlabs/php_codesniffer
+</code></pre>
 
-    <p class="mb-4 mt-0"><code class="language-php hljs">
+<h6>PHP Copy/Paste Detector (PHPCPD)</h6>
 
-</code></p>
+<p>phpcpd is a Copy/Paste Detector (CPD) for PHP code.</p>
 
-    <a
-        href="https://rajkumarsakthivel.github.io/blog/my-first-blog-post"
-        title="Read more - My First Blog Post"
-        class="uppercase font-semibold tracking-wide mb-2"
-    >Read</a>
-</div>
+<pre><code>composer global require sebastian/phpcpd
+</code></pre>
 
-            
-            </main>
+<h5>composer-normalize</h5>
+
+<p>Provides a composer plugin for normalizing composer.json</p>
+
+<pre><code>composer global require --dev ergebnis/composer-normalize
+</code></pre>
+
+<h6>PHPUnit</h6>
+
+<p>PHPUnit is a programmer-oriented testing framework for PHP.</p>
+
+<pre><code>composer global require phpunit/phpunit
+</code></pre>
+
+<h5>DbUnit</h5>
+
+<p>PHPUnit extension for database interaction testing.</p>
+
+<pre><code>composer global require phpunit/dbunit
+</code></pre>
+
+<h5>PHP Documentor</h5>
+
+<p>phpDocumentor is an application that is capable of analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.</p>
+
+<pre><code>composer global require phpdocumentor/phpdocumentor
+</code></pre>
+
+<h5>PHPLOC</h5>
+
+<p>phploc is a tool for quickly measuring the size and analyzing the structure of a PHP project.</p>
+
+<pre><code>composer global require phploc/phploc
+</code></pre>
+    </div>
+
+    <nav class="flex justify-between text-sm md:text-base">
+        <div>
+                            <a href="https://rajkumarsakthivel.github.io/blog/my-first-blog-post" title="Older Post: My First Blog Post">
+                    &LeftArrow; My First Blog Post
+                </a>
+                    </div>
+
+        <div>
+                    </div>
+    </nav>
+        </main>
         <footer class="bg-white text-center text-sm mt-12 py-4" role="contentinfo">
             <ul class="flex flex-col md:flex-row justify-center list-none">
                 <li class="md:mr-2">

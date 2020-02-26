@@ -3,12 +3,108 @@
     <title>//: Ra</title>
     <link href="https://rajkumarsakthivel.github.io" />
     <link type="application/atom+xml" rel="self" href="https://rajkumarsakthivel.github.io/blog/feed.atom" />
-    <updated>2020-02-09T22:54:42+00:00</updated>
+    <updated>2020-02-26T19:52:04+00:00</updated>
     <id>https://rajkumarsakthivel.github.io/blog/feed.atom</id>
     <author>
         <name>Author Name</name>
     </author>
                 <entry>
+    <id>https://rajkumarsakthivel.github.io/blog/useful-composer-global-packages-for-php-projects</id>
+    <link type="text/html" rel="alternate" href="https://rajkumarsakthivel.github.io/blog/useful-composer-global-packages-for-php-projects" />
+    <title>Useful Composer Global Packages for PHP</title>
+    <published>2020-02-01T00:00:00+00:00</published>
+    <updated>2020-02-01T00:00:00+00:00</updated>
+    <author>
+        <name>Raj</name>
+    </author>
+    <summary type="html">Useful Global installation of PHP Packages with Composer for PHP Projects.
+
+
+
+prestissimo is a composer plugin that downloads packages in parallel to speed up the installation process.
+
+
+
+
+
+A tool to automatically fix PHP Coding Standards issues.......</summary>
+    <content type="html"><![CDATA[
+        <h1>PHP-Packages-with-Composer-Global</h1>
+
+<p>Useful Global installation of PHP Packages with Composer for PHP Projects.</p>
+
+<h5>Prestissimo</h5>
+
+<p>prestissimo is a composer plugin that downloads packages in parallel to speed up the installation process.</p>
+
+<pre><code>composer global require hirak/prestissimo
+</code></pre>
+
+<h5>PHP Coding Standards Fixer</h5>
+
+<p>A tool to automatically fix PHP Coding Standards issues.</p>
+
+<pre><code>composer global require friendsofphp/php-cs-fixer
+</code></pre>
+
+<h5>PHP Mess Detector</h5>
+
+<p>PMD to detect code smells and possible errors within the analyzed source code</p>
+
+<pre><code>composer global require phpmd/phpmd
+</code></pre>
+
+<h5>PHP Codesniffer</h5>
+
+<p>PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files and detects violations of a defined set of coding standards.</p>
+
+<pre><code>composer global require squizlabs/php_codesniffer
+</code></pre>
+
+<h6>PHP Copy/Paste Detector (PHPCPD)</h6>
+
+<p>phpcpd is a Copy/Paste Detector (CPD) for PHP code.</p>
+
+<pre><code>composer global require sebastian/phpcpd
+</code></pre>
+
+<h5>composer-normalize</h5>
+
+<p>Provides a composer plugin for normalizing composer.json</p>
+
+<pre><code>composer global require --dev ergebnis/composer-normalize
+</code></pre>
+
+<h6>PHPUnit</h6>
+
+<p>PHPUnit is a programmer-oriented testing framework for PHP.</p>
+
+<pre><code>composer global require phpunit/phpunit
+</code></pre>
+
+<h5>DbUnit</h5>
+
+<p>PHPUnit extension for database interaction testing.</p>
+
+<pre><code>composer global require phpunit/dbunit
+</code></pre>
+
+<h5>PHP Documentor</h5>
+
+<p>phpDocumentor is an application that is capable of analyzing your PHP source code and DocBlock comments to generate a complete set of API Documentation.</p>
+
+<pre><code>composer global require phpdocumentor/phpdocumentor
+</code></pre>
+
+<h5>PHPLOC</h5>
+
+<p>phploc is a tool for quickly measuring the size and analyzing the structure of a PHP project.</p>
+
+<pre><code>composer global require phploc/phploc
+</code></pre>
+    ]]></content>
+</entry>
+            <entry>
     <id>https://rajkumarsakthivel.github.io/blog/my-first-blog-post</id>
     <link type="text/html" rel="alternate" href="https://rajkumarsakthivel.github.io/blog/my-first-blog-post" />
     <title>My First Blog Post</title>
