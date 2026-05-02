@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "context-engine": {
+      "command": "/Users/raj/.local/bin/cce",
+      "args": [
+        "serve",
+        "--project-dir",
+        "/Users/raj/projects/rajkumarsakthivel.github.io"
+      ]
+    }
+  }
+}
